@@ -4,6 +4,6 @@
 
 def roll
   dice_roll = rand(6) + 1
-  puts int(dice_roll)
-  return dice_roll
+  puts Integer(dice_roll)
+  return Integer(dice_roll)
 end
